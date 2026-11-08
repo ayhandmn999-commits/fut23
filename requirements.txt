@@ -1,0 +1,12 @@
+# Çekirdek (zorunlu)
+flask>=3.0
+requests>=2.31
+numpy>=1.26
+gunicorn>=22.0        # üretim için
+
+# Önerilen (otomatik hat için)
+yt-dlp                 # YouTube videosunu indirmek için (yalnızca lisanslı/izinli içerik)
+faster-whisper         # Yerel, ücretsiz Türkçe konuşma tanıma (alternatif: GROQ_API_KEY / OPENAI_API_KEY)
+scikit-learn           # Konuşmacı kümeleme
+scipy
+opencv-python-headless # Yüz tabanlı akıllı kadraj (isteğe bağlı)
